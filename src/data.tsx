@@ -3,16 +3,15 @@ import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
 import { BsChatDotsFill } from 'react-icons/bs';
 
 // import images
-import AboutImg from '../src/assets/presentation.png';
-import Feature1Img from '../src/assets/feature_1.png';
-import Feature2Img from '../src/assets/feature_2.png';
-import Feature3Img from '../src/assets/feature_3.png';
-import Feature1BgImg from '../src/assets/feature_1_bg.png';
-import Feature2BgImg from '../src/assets/feature_2_bg.png';
-import Feature3BgImg from '../src/assets/feature_3_bg.png';
-import Background from '../src/assets/background.png';
-import Download from '../src/assets/download.png';
-import Logo from '../src/assets/logo.png';
+import Feature1Img from './assets/feature_1.png';
+import Feature2Img from './assets/feature_2.png';
+import Feature3Img from './assets/feature_3.png';
+import Feature1BgImg from './assets/feature1_bg.png';
+import Feature2BgImg from './assets/feature2_bg.png';
+import Feature3BgImg from './assets/feature3_bg.png';
+import Background from './assets/download.png';
+import Download from './assets/presentation.png';
+import Logo from './assets/logo.png';
 
 export const navigationData = [
   {
@@ -29,7 +28,7 @@ export const navigationData = [
   },
 ];
 
-export const heroData = {
+export const infoData = {
   title: ` 주문과 결제의 완전 자동화`,
   subtitle:
     '띵동을 통해 여러분은 QR코드 메뉴판과 자동화된 주문 시스템으로 비용을 절감하고 업무 효율성을 높일 수 있습니다.',

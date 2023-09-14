@@ -2,7 +2,7 @@ import React from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
-import Hero from './components/Hero'
+import Info from './components/Info'
 import About from './components/About'
 import Features from './components/Features'
 import Monial from './components/Monial'
@@ -13,11 +13,13 @@ export default function App() {
 
   Aos.init({
     duration: 1800,
-    offset: 200
+    offset: 0
   })
   return (
     <div className='overflow-hidden'>
-      Started
+      <Info />
+      <About />
+      <Features />
     </div>
   )
 }
