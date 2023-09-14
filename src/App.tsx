@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
-function App() {
+import Hero from './components/Hero'
+import About from './components/About'
+import Features from './components/Features'
+import Monial from './components/Monial'
+import Section from './components/Section'
+import Footer from './components/Footer'
+
+export default function App() {
+
+  Aos.init({
+    duration: 1800,
+    offset: 200
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='overflow-hidden'>
+      Started
     </div>
-  );
+  )
 }
-
-export default App;
