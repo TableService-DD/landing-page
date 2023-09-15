@@ -6,9 +6,11 @@ import { BsChatDotsFill } from 'react-icons/bs';
 import Feature1Img from './assets/feature_1.png';
 import Feature2Img from './assets/feature_2.png';
 import Feature3Img from './assets/feature_3.png';
+import Feature4Img from './assets/feature_4.png';
 import Feature1BgImg from './assets/feature1_bg.png';
 import Feature2BgImg from './assets/feature2_bg.png';
 import Feature3BgImg from './assets/feature3_bg.png';
+import Feature4BgImg from './assets/feature4_bg.png';
 import Background from './assets/download.png';
 import Download from './assets/presentation.png';
 import Logo from './assets/logo.png';
@@ -74,6 +76,15 @@ export const featuresData = {
         'POS와 연동하여 주문과 결제를 한번에 관리하세요. 띵동이 모든 것을 해결해드릴게요.',
       linkText: 'Learn more',
       delay: '1000',
+    },
+    {
+      image: Feature4Img,
+      bgImage: Feature4BgImg,
+      title: '대시보드로 매출을 한눈에',
+      description:
+        '매출을 한눈에 확인하세요. 매출이 얼마나 증가했는지 확인해보세요!',
+      linkText: 'Learn more',
+      delay: '1300',
     }
   ],
 };
