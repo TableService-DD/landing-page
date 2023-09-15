@@ -5,7 +5,6 @@ import "aos/dist/aos.css"
 import Info from './components/Info'
 import About from './components/About'
 import Features from './components/Features'
-import Monial from './components/Monial'
 import Section from './components/Section'
 import Footer from './components/Footer'
 
@@ -20,6 +19,8 @@ export default function App() {
       <Info />
       <About />
       <Features />
+      <Section />
+      <Footer />
     </div>
   )
 }
